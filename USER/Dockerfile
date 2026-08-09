@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 RUN useradd heman
 
 USER heman
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["sleep", "1000"]
